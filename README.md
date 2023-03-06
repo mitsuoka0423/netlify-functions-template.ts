@@ -8,10 +8,26 @@
 npm ci
 ```
 
-## Build
+## Dev
 
 ```bash
-npm run build
+npm run dev
 ```
 
-`./.netlify/functions/hello/index.js` will be created.
+```bash
+$ curl http://localhost:8888/.netlify/functions/hello
+
+{"message":"Hello World"}
+```
+
+## Deploy
+
+Just execute `git push`.
+
+## Execute
+
+```bash
+$ curl https://{site_name}.netlify.app/.netlify/functions/hello
+
+{"message":"Hello World"}
+```
