@@ -103,6 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-netlify/**
 # Local Netlify folder
 .netlify
